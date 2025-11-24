@@ -1,9 +1,9 @@
 ---
 layout: default
-title: <Your Name>
+title: <Mallory Moore>
 ---
 
-## About Me
+## I am a Sophomore pursuing Mechanical Engineering with minors in Aerospace and Business. 
 
 
 ![Profile Picture]({{ "assets/images/profile-pic.jpg" | relative_url }}){: class="profile-image"}
