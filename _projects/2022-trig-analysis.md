@@ -43,7 +43,7 @@ I started with testing out the heat exchanger above with a group. We had two liq
 </p>  
 This is true for both the cold and hot fluid. 
 
-***Energy Balance Equation:***<
+***Energy Balance Equation:***
 <p>
 &Sigma; E = Q̇ - Ẇ + ṁ<sub>in</sub>(h + v²/2 + gz) - ṁ<sub>out</sub>(h + v²/2 + gz) = 0 
 <br>
@@ -102,7 +102,7 @@ With fast counterflow,
 <img src="../../assets/images/counter.png" width="500"><br>
 Q̇<sub>hot</sub>/ṁ = c<sub>p</sub>ΔT = 4184 J/kgK * (-(40.5+273K)+(20.9+273K)) = -82 kJ/kgK
 
-So, the fast counterflow had better results than the slow counterflow. 
+So, the fast counterflow had better results than the slow counterflow. It almost doubled the heat transfer rate by increasing the flow rate, while not as dramatic of a change as parallel vs counter flow, it still made a difference. I think this is also a similar reason to the counterflow example, it allows the heat exchanger to maintain a higher temperature difference throughout the heat exchanger.
 
 I decided to look into the heat exchangers on boats for an example of this. While the coolant from a car engine flows through the radiator which uses air flow to cool it down, boats don’t move at fast enough speeds for this to work. Instead, they use a heat exchanger with raw water (water from the ocean or lake). I wanted to use the data from the heat exchanger I used in lab to think about this system. 
 
@@ -110,9 +110,24 @@ I decided to analyze the heat exchanger on a boat with an inboard motor. First, 
 
 <img src="../../assets/images/heonboat.png" width="500">
 
-I found a YouTube video of a man with an inboard motor measuring the temperatures of his heat exchanger. With an infrared sensor, he found that in mid June the raw water inlet was 18 degrees Celsius and exiting the system it should reach a maximum of about doubling. Additionally, when running, a fair assumption for the engine coolant temperature change is 5-11 degrees Celsius with an inlet temperature into the heat exchanger of 80 degrees Celsius. These numbers are based on online research and some more YouTube videos.
+I found a YouTube video of a man with an inboard motor measuring the temperatures of his heat exchanger. With an infrared sensor, he found that in mid June the raw water inlet was 18 degrees Celsius and exiting the system it should reach a maximum of about 35-40. Additionally, when running, a fair assumption for the engine coolant temperature change is 5-11 degrees Celsius with an inlet temperature into the heat exchanger of 80 degrees Celsius. These numbers are based on online research and some more YouTube videos.
 
+***Assumptions:*** 
+<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Same as previous assumptions<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Fast counter flow 
 
+I want to see how the heat exchanger would differ in salt water versus fresh water. The specific heat capacity of salt water that I am using is 3993 J/(kg·K) and 4184 J/(kg·K) for fresh water. From the previous energy balance, I know that ṁ<sub>coolant</sub>c<sub>v</sub>ΔT = ṁ<sub>water</sub>c<sub>v</sub>ΔT 
+</p>  
+I decided to analyze it based on the raw water temperature as I had those concrete values from the youtube video in which he measured the temperatures versus online estimations. 
+
+For fresh water:
+Q̇<sub>raw water</sub>/ṁ = c<sub>p</sub>ΔT = 4184 J/kgK * ((35+273K)-(18+273K)) = 71 kJ/kgK
+
+For salt water:
+Q̇<sub>raw water</sub>/ṁ = c<sub>p</sub>ΔT = 3993 J/kgK * ((35+273K)-(18+273K)) = 67.9 kJ/kgK
+
+So, while the salt water has slightly lower heat transfer from the coolant into the water, it didn't actually make too much of a difference.
 
 
 
