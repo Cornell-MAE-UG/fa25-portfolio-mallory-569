@@ -73,22 +73,21 @@ Looking at it as a full control volume system, the energy balance equation is:
 
 A few changes that we made were switching from parallel flow to counter flow and from a fast to slow flow rate. In parallel flow, the red liquid stayed hotter than the cold liquid at the end whereas the opposite was true with counter flow. I used the constant specific heat of 4184 J/KgK. Looking at when we used the fast flow rate, the parallel flow had the following temperatures: 
 
-<img src="../../assets/images/paralelflow.png" width="500">
+<img src="../../assets/images/paralelflow.png" width="500"> <br>
 Q̇<sub>hot</sub>/ṁ = c<sub>p</sub>ΔT = 4184 J/kgK * ((34.8+273K)-(50+273K)) = -63.5 kJ/kg
 
-<br>
 On the other hand, with the counter flow, we saw the following temperatures:
-<img src="../../assets/images/counterflow.png" width="500">
+<img src="../../assets/images/counterflow.png" width="500"><br>
 Q̇<sub>hot</sub>/ṁ = c<sub>p</sub>ΔT = 4184 J/kgK * ((29.5+273K)-(40+273K)) = -43.9kJ/kg
 
 The fact that the heats started at different temperatures means that I am unable to properly compare the two. So, I am going to analyze our data at the faster flow rates. 
 
 In parallel flow: 
-<img src="../../assets/images/pastparallel.png" width="500">
+<img src="../../assets/images/pastparallel.png" width="500"><br>
 Q̇<sub>hot</sub>/ṁ = c<sub>p</sub>ΔT = 4184 J/kgK * (-(40.9+273K)+(32.5+273K)) = -35.1 kJ/kgK
 
 In counter flow:
-<img src="../../assets/images/counter.png" width="500">
+<img src="../../assets/images/counter.png" width="500"><br>
 Q̇<sub>hot</sub>/ṁ = c<sub>p</sub>ΔT = 4184 J/kgK * (-(40.5+273K)+(20.9+273K)) = -82 kJ/kgK
 
 So, counter flow had a much higher heat transfer out of the hot fluid and into the cold fluid. I believe that this is due to the fact that counter flow has a more efficient heat transfer as it has a greater temperature distance across all the coils of the tubes. 
@@ -96,11 +95,11 @@ So, counter flow had a much higher heat transfer out of the hot fluid and into t
 Additionally, we looked into slow versus fast flow:
 
 With the slow counterflow, 
-<img src="../../assets/images/counterflow.png" width="500">
+<img src="../../assets/images/counterflow.png" width="500"><br>
 Q̇<sub>hot</sub>/ṁ = c<sub>p</sub>ΔT = 4184 J/kgK * ((29.5+273K)-(40+273K)) = -43.9kJ/kg
 
 With fast counterflow,
-<img src="../../assets/images/counter.png" width="500">
+<img src="../../assets/images/counter.png" width="500"><br>
 Q̇<sub>hot</sub>/ṁ = c<sub>p</sub>ΔT = 4184 J/kgK * (-(40.5+273K)+(20.9+273K)) = -82 kJ/kgK
 
 So, the fast counterflow had better results than the slow counterflow. 
