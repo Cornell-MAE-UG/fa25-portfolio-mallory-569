@@ -102,11 +102,13 @@ So, the fast counterflow had better results than the slow counterflow. It almost
 
 I decided to look into the heat exchangers on boats for an example of this. While the coolant from a car engine flows through the radiator which uses air flow to cool it down, boats don’t move at fast enough speeds for this to work. Instead, they use a heat exchanger with raw water (water from the ocean or lake). I wanted to use the data from the heat exchanger I used in lab to think about this system. 
 
-I decided to analyze the heat exchanger on a boat with an inboard motor. First, the water is pumped up from the ocean into a filter and into the heat exchanger. The heat exchanger is using the ocean water to cool the engine coolant. 
+I decided to analyze the heat exchanger on a boat with an inboard motor, specifically on the 50ft Princess Yacht which runs twin Volvo Penta D8-IPS 800 diesel engines (heat exchanger shown below). First, the water is pumped up from the ocean into a filter and into the heat exchanger. The heat exchanger is using the ocean water to cool the engine coolant. 
 
 <img src="../../assets/images/heonboat.png" width="500">
 
-I found a YouTube video of a man with an inboard motor measuring the temperatures of his heat exchanger. With an infrared sensor, he found that in mid June the raw water inlet was 18 degrees Celsius and exiting the system it should reach a maximum of about 35-40. Additionally, when running, a fair assumption for the engine coolant temperature change is 5-11 degrees Celsius with an inlet temperature into the heat exchanger of 80 degrees Celsius. These numbers are based on online research and some more YouTube videos.
+I found a YouTube video of a man with that inboard motor measuring the temperatures of his heat exchanger. With an infrared sensor, he found that in mid June the raw water inlet was 18 degrees Celsius and exiting the system when moving reached a maximum of 35 degrees Celsius when running. 
+
+For more context, when running, a fair assumption for the engine coolant temperature change is 5-11 degrees Celsius with an inlet temperature into the heat exchanger of 80 degrees Celsius. These numbers are based on online research and some more YouTube videos. However, I am choosing to specifically analyze the heat exchanger on the 50ft Princess.
 
 ***Assumptions:*** 
 <br>
