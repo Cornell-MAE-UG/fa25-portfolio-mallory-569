@@ -17,11 +17,8 @@ For ENGRD 2210 (Thermodynamics), we were asked to analyze a device that we have 
 A heat exchanger has two fluids flowing past each other many times in either parallel or counterflow to allow heat transfer between the two fluids without mixing. 
 
 <div class="image-row">
-  <img src="/assets/images/hecrosssection.png">
-  <img src="/assets/images/heatexchangerdiagram.png">
-  <img src="./assets/images/hesetup.png">
+  <img src="../../assets/images/hesetup.png">
   <img src="../../assets/images/hecrosssection.png">
-  <img src="https://cornell-mae-ug.github.io/fa25-portfolio-mallory-569//assets/images/hecrosssection.png">
 </div>
 
 
@@ -37,7 +34,7 @@ I started with testing out the heat exchanger above with a group. We had two liq
 
   Modeled as a control volume around both fluids.
 
-<img src="../assets/images/mydrawing.png">
+<img src="../../assets/images/mydrawing.png">
 
 ***Mass Balance Equation:***
 <p>
