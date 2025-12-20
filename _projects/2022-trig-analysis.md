@@ -17,8 +17,8 @@ For ENGRD 2210 (Thermodynamics), we were asked to analyze a device that we have 
 A heat exchanger has two fluids flowing past each other many times in either parallel or counterflow to allow heat transfer between the two fluids without mixing. 
 
 <div class="image-row">
-  <img src="../../assets/images/hesetup.png" width="300" alt="Heat Exchanger Setup">
-  <img src="../../assets/images/hecrosssection.png">
+  <img src="../../assets/images/hesetup.png"  width="500" alt="Heat Exchanger Setup">
+  <img src="../../assets/images/hecrosssection.png" width="500" alt="Cross Section">
 </div>
 
 
@@ -34,7 +34,7 @@ I started with testing out the heat exchanger above with a group. We had two liq
 
   Modeled as a control volume around both fluids.
 
-<img src="../../assets/images/mydrawing.png">
+<img src="../../assets/images/mydrawing.png" width="500">
 
 ***Mass Balance Equation:***
 <p>
@@ -55,7 +55,7 @@ This is true for both the cold and hot fluid. <br>
 
 ***Full Control Volume:***
 
-<img src=../assets/images/hefullcv.png>
+<img src="../../assets/images/hefullcv.png" width="500">
 Looking at it as a full control volume system, the energy balance equation is: 
 <p>
 &Sigma; E = Q̇ - Ẇ + ṁ<sub>cold in</sub>(h + v²/2 + gz) - ṁ<sub>cold out</sub>(h + v²/2 + gz) + ṁ<sub>hot in</sub>(h + v²/2 + gz) - ṁ<sub>hot out</sub>(h + v²/2 + gz)= 0 
@@ -76,7 +76,7 @@ I decided to look into the heat exchangers on boats for an example of this. Whil
 
 I decided to analyze the heat exchanger on a boat with an inboard motor. First, the water is pumped up from the ocean into a filter and into the heat exchanger. The heat exchanger is using the ocean water to cool the engine coolant. 
 
-<img src="../../assets/images/heonboat.png">
+<img src="../../assets/images/heonboat.png" width="500">
 
 I found a YouTube video of a man with an inboard motor measuring the temperatures of his heat exchanger. With an infrared sensor, he found that in mid June the raw water inlet was 18 degrees Celsius and exiting the system it should reach a maximum of about doubling. Additionally, when running, a fair assumption for the engine coolant temperature change is 5-11 degrees Celsius with an inlet temperature into the heat exchanger of 80 degrees Celsius. These numbers are based on online research and some more YouTube videos.
 
