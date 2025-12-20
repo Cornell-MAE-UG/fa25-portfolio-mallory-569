@@ -129,6 +129,5 @@ Q̇<sub>raw water</sub>/ṁ = c<sub>p</sub>ΔT = 3993 J/kgK * ((35+273K)-(18+273
 
 So, while the salt water has slightly lower heat transfer from the coolant into the water, it didn't actually make too much of a difference.
 
-
-
+I am interested in ways that the heat exchanger on boats could be improved. One way would be to change the flow rate of the pump, which would require changing the pump but would probably be an easier change based on the fact that the pump is more external than changing the properties of heat exchanger itself. Another, idea would be to change the temperature of the raw water going in, which would require another apparatus on the boat, which is another thing that could be broken, but would help. 
 [def]: assets/images/hesetup.pn

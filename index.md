@@ -3,7 +3,7 @@ layout: default
 title: <Mallory Moore>
 ---
 
-## I am a Sophomore pursuing Mechanical Engineering with minors in Aerospace and Business. 
+## Mallory Moore 
 
 
 ![Profile Picture]({{ "assets/images/profile-pic.jpg" | relative_url }}){: class="profile-image"}
