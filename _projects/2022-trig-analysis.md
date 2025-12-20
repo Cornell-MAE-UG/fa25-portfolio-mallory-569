@@ -17,8 +17,8 @@ For ENGRD 2210 (Thermodynamics), we were asked to analyze a device that we have 
 A heat exchanger has two fluids flowing past each other many times in either parallel or counterflow to allow heat transfer between the two fluids without mixing. 
 
 <div class="image-row">
-  <img src="../../assets/images/hesetup.png"  width="500" alt="Heat Exchanger Setup">
-  <img src="../../assets/images/hecrosssection.png" width="500" alt="Cross Section">
+  <img src="../../assets/images/hesetup.png"  width="500">
+  <img src="../../assets/images/hecrosssection.png" width="300">
 </div>
 
 
@@ -34,7 +34,7 @@ I started with testing out the heat exchanger above with a group. We had two liq
 
   Modeled as a control volume around both fluids.
 
-<img src="../../assets/images/mydrawing.png" width="500">
+  <img src="../../assets/images/mydrawing.png"  width="500">
 
 ***Mass Balance Equation:***
 <p>
@@ -56,6 +56,7 @@ This is true for both the cold and hot fluid. <br>
 ***Full Control Volume:***
 
 <img src="../../assets/images/hefullcv.png" width="500">
+
 Looking at it as a full control volume system, the energy balance equation is: 
 <p>
 &Sigma; E = Q̇ - Ẇ + ṁ<sub>cold in</sub>(h + v²/2 + gz) - ṁ<sub>cold out</sub>(h + v²/2 + gz) + ṁ<sub>hot in</sub>(h + v²/2 + gz) - ṁ<sub>hot out</sub>(h + v²/2 + gz)= 0 
