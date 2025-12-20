@@ -17,7 +17,7 @@ For ENGRD 2210 (Thermodynamics), we were asked to analyze a device that we have 
 A heat exchanger has two fluids flowing past each other many times in either parallel or counterflow to allow heat transfer between the two fluids without mixing. TEST
 
 <div class="image-row">
-  <img src="../assets/images/hesetup.png">
+  <img src=/assets/images/hesetup.png>
   <img src="/assets/images/hecrosssection.png">
 </div>
 
