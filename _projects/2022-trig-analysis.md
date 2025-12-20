@@ -32,9 +32,9 @@ I started with testing out the heat exchanger above with a group. We had two liq
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Potential and Kinetic Energy Negligible   <br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Constant Specific Heats   <br>
 
-  Modeled as a control volume around both fluids.
+  Modeled as a control volume around one fluid.
 
-  <img src="../../assets/images/mydrawing.png"  width="500">
+  <img src="../../assets/images/onefluid.png"  width="500">
 
 ***Mass Balance Equation:***
 <p>
@@ -71,7 +71,12 @@ Looking at it as a full control volume system, the energy balance equation is:
 → ṁ<sub>cold</sub>c<sub>v</sub>ΔT = ṁ<sub>hot</sub>c<sub>v</sub>ΔT 
 </p>  
 
-A few changes that we made were switching from parallel flow to counter flow and from a fast to slow flow rate. In parallel flow, the red liquid stayed hotter than the cold liquid at the end whereas the opposite was true with counter flow. This is due to the fact that counter flow has a more efficient heat transfer as it has a greater temperature distance across all the coils of the tubes. With the flow rate, we found that flowing faster allowed the two liquids to end up at a closer temperature to each other. 
+A few changes that we made were switching from parallel flow to counter flow and from a fast to slow flow rate. In parallel flow, the red liquid stayed hotter than the cold liquid at the end whereas the opposite was true with counter flow. I used the constant specific heat of 4184 J/KgK. Looking at when we used the slow flow rate, the parallel flow had the following temperatures: 
+
+<img src="../../assets/images/paralelflow.png" width="500">
+
+
+ This is due to the fact that counter flow has a more efficient heat transfer as it has a greater temperature distance across all the coils of the tubes. With the flow rate, we found that flowing faster allowed the two liquids to end up at a closer temperature to each other. 
 
 I decided to look into the heat exchangers on boats for an example of this. While the coolant from a car engine flows through the radiator which uses air flow to cool it down, boats don’t move at fast enough speeds for this to work. Instead, they use a heat exchanger with raw water (water from the ocean or lake). I wanted to use the data from the heat exchanger I used in lab to think about this system. 
 
