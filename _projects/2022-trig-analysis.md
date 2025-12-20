@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Analysis of Heat Exchanger
+title: Heat Exchanger
 description: ENGRD 2210 with Heat Exchanger
 image: /assets/images/heatexchangerdiagram.png
 ---
@@ -17,8 +17,8 @@ For ENGRD 2210 (Thermodynamics), we were asked to analyze a device that we have 
 A heat exchanger has two fluids flowing past each other many times in either parallel or counterflow to allow heat transfer between the two fluids without mixing. 
 
 <div class="image-row">
-  <img src="/assets/images/hesetup.png">
-  <img src="/assets/images/hecrosssection.png">
+  <img src="../assets/images/hesetup.png">
+  <img src="../assets/images/hecrosssection.png">
 </div>
 
 I started with testing out the heat exchanger above with a group. We had two liquid reservoirs, a hot one (red) and cold one (blue) that we pumped into the heat exchanger and out to two separate containers. We ran this in both parallel and counterflow at slow and fast speeds to measure the change in temperature of both liquids. 
@@ -32,14 +32,8 @@ I started with testing out the heat exchanger above with a group. We had two liq
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Constant Specific Heats   <br>
 
   Modeled as a control volume around both fluids.
-  <br>
-  <p align="center">
-  <img src="{{ site.baseurl }}/assets/images/mydrawing.png"
-       alt="Control Volume"
-       width="450">
-</p>
 
-image:/assets/images/mydrawing.png
+<img src="../assets/images/mydrawing.png">
 
 ***Mass Balance Equation:***
 <p>
@@ -60,7 +54,7 @@ This is true for both the cold and hot fluid. <br>
 
 ***Full Control Volume:***
 
-<img src=/assets/images/hefullcv.png>
+<img src=../assets/images/hefullcv.png>
 Looking at it as a full control volume system, the energy balance equation is: 
 <p>
 &Sigma; E = Q̇ - Ẇ + ṁ<sub>cold in</sub>(h + v²/2 + gz) - ṁ<sub>cold out</sub>(h + v²/2 + gz) + ṁ<sub>hot in</sub>(h + v²/2 + gz) - ṁ<sub>hot out</sub>(h + v²/2 + gz)= 0 
