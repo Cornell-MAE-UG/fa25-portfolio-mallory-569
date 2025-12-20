@@ -1,70 +1,78 @@
 ---
 layout: default
-title: <Your Name> - Curriculum Vitae
+title: Mallory Moore - Curriculum Vitae
 permalink: /cv/
 ---
 ## Curriculum Vitae
 
-[Download my CV]({{ "/assets/CV.pdf" | relative_url }}) in PDF format.
+<p><a href="{{ "/assets/Mallory Moore Resume.pdf" | relative_url }}" download="Mallory Moore Resume.pdf">Download my resume (PDF)</a></p>
 
 
-**Email:** [netID@cornell.edu](mailto:netID@cornell.edu) | | | **Phone:** +123 456 7890
+**Email:** [mem569@cornell.edu](mailto:netID@cornell.edu) | | | **Phone:** 650 436 7825
 
 ---
 
 #### Objective
-Aspiring engineering student with a strong foundation in.... Passionate about ... and eager to apply my knowledge in real-world applications.
+I aspire to a career in aerospace and aeronautics with a passion for sustainability. 
 
 ---
 
 #### Education
 - **Cornell University**  
-  *Bachelor of Science in Mechanical and Aerospace Engineering*  
-  GPA: 3.8/4.0 | Graduation: Month, Year
+  *Bachelor of Science in Mechanical Engineering*  
+  GPA: 3.8/4.0 | Graduation: May, 2028
 
-- **[High School Name]**  
+- **Notre Dame Belmont**  
   *High School Diploma*  
-  Graduation: [Month, Year]
+  Graduation: June, 2024 <br>
+  Salutatorian
 
 ---
 
 #### Skills
-- **Software:** Autodesk Fusion 360, SolidWorks, ANSYS  
+- **Software:** SolidWorks, ANSYS, HSMWorks, LaTeX, Excel  
 - **Programming:** Python, MATLAB  
-- **Tools:** 3D Printing, Laser Cutting  
+- **Tools:** Power Tools, Manual Lathe, Manual Mill, Tormach (CNC)  
 
 ---
 
 #### Projects
-- **[Project Title]**:  
-  *[Short Description]*  
-  - Key Achievement 1  
-  - Key Achievement 2  
-
-- **[Project Title]**:  
-  *[Short Description]*  
-  - Key Achievement 1  
-  - Key Achievement 2  
+- **ENGRD 2210 Thermodynamics Project**:  
+  *As part of ENGRD 2210 our assignment was to select a real world instance of a device or system that we have learned about and analyze it.*  
 
 ---
 
-#### Work Experience
-- **[Company Name] - Intern**  
-  [Month, Year] - [Month, Year]  
-  - Responsibility 1  
-  - Responsibility 2  
+#### Technical Experience
+- **Cornell Baja Racing - Drivetrain Subteam**  
+  September, 2024 - Present  
+  *2024-25 season* <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Design and manufacture propshaft bearing casing <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Deliver business presentation   <br>
+  *2025-26 season* <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Design and manufacture front gearbox casing <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Develop and deliver business presentation
 
+- **FTC Robotics**  
+  September, 2021 - June, 2024  
+  *Co-Captain and Programming Lead* <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Communicate with business side and  mentors; organize competition attendance; collaborate on designing,building, and programming the robot based on the FIRST FTC robotic challenge <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Host elementary school aged Girl Scouts to earn their robotics badges; lead activities and lessons on the
+development of robots and the design process; encourage girls to compete in and learn about robotics 
 ---
 
 #### Achievements & Certifications
-- [Certification Name], [Issuing Organization], [Year]  
-- [Achievement Name], [Competition/Event], [Year]  
+- National Merit Scholar, 2023  
+- Bausch & Lomb Honorary Science Award, 2023  
 
 ---
 
 #### Extracurricular Activities
-- Member of [Club/Organization Name]  
-- Volunteer for [Event/Organization Name]  
+- Member of Cornell Women's Club Waterpolo (Co-captain, Recruitment Chair)  
+- Society of Women Engineers, Girl Scout Committee Coordinator
+- CU Empower Mentorship Program, Mentor
+- Women of Aeronautics and Astronautics, Cornell University, Member
+- Animal Advocacy at Cornell, Cornell University, Member
+- Kappa Delta Sorority, Cornell University, Member  
 
 ---
 

@@ -1,25 +1,75 @@
 ---
 layout: project
-title: Analysis of Functions
-description: Class project with Graphs
-technologies: [MATLAB, python]
-image: /assets/images/function-graph.png
+title: Analysis of Heat Exchanger
+description: ENGRD 2210 with Heat Exchanger
+image: /assets/images/heatexchangerdiagram.png
 ---
+<!--
+<div style="display: flex; gap: 15px;">
+  <img src="/assets/images/hesetup.png" style="width: 48%;">
+  <img src="/assets/images/hecrosssection.png" style="width: 48%;">
+</div>
+-->
+#### Heat Exchanger 
+
+For ENGRD 2210 (Thermodynamics), we were asked to analyze a device that we have studied in class. I chose to look into a heat exchanger.  
+
+A heat exchanger has two fluids flowing past each other many times in either parallel or counterflow to allow heat transfer between the two fluids without mixing. 
+
+<div class="image-row">
+  <img src="/assets/images/hesetup.png">
+  <img src="/assets/images/hecrosssection.png">
+</div>
+
+I started with testing out the heat exchanger above with a group. We had two liquid reservoirs, a hot one (red) and cold one (blue) that we pumped into the heat exchanger and out to two separate containers. We ran this in both parallel and counterflow at slow and fast speeds to measure the change in temperature of both liquids. 
+
+***Assumptions:*** 
+<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- No heat exchange with the surroundings<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Steady State Operation   <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- No Work Done   <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Potential and Kinetic Energy Negligible   <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Constant Specific Heats   <br>
+
+  Modeled as a control volume around both fluids.
+  <br>
+<img src=/assets/images/mydrawing.png>
+
+***Mass Balance Equation:***
+<p>
+&Sigma; ṁ = 0 = ṁ<sub> in</sub> − ṁ<sub>out</sub>
+→ ṁ<sub>in</sub> = ṁ<sub>out</sub>
+</p>  
+This is true for both the cold and hot fluid. 
+
+***Energy Balance Equation:***<
+<p>
+&Sigma; E = Q̇ - Ẇ + ṁ<sub>in</sub>(h + v²/2 + gz) - ṁ<sub>out</sub>(h + v²/2 + gz) = 0 
+<br>
+→ 0 = Q̇ + ṁ(h<sub>in</sub> - h<sub>out</out>)
+
+→ Q̇/ṁ = h<sub>in</sub> - h<sub>out</sub> = c<sub>v</sub>ΔT
+</p>  
+This is true for both the cold and hot fluid. <br>
+
+***Full Control Volume:***
+
+<img src=/assets/images/hefullcv.png>
+Looking at it as a full control volume system, the energy balance equation is: 
+<p>
+&Sigma; E = Q̇ - Ẇ + ṁ<sub>cold in</sub>(h + v²/2 + gz) - ṁ<sub>cold out</sub>(h + v²/2 + gz) + ṁ<sub>hot in</sub>(h + v²/2 + gz) - ṁ<sub>hot out</sub>(h + v²/2 + gz)= 0 
+<br>
+
+→ 0 = ṁ<sub>cold</sub>(h<sub>in</sub>-h<sub>out</sub>) + ṁ<sub>hot</sub>(h<sub>in</sub>-h<sub>out</sub>)
+<br>
+
+→ ṁ<sub>cold</sub>(h<sub>in</sub>-h<sub>out</sub>) = ṁ<sub>hot</sub>(h<sub>in</sub>-h<sub>out</sub>)
+<br>
+
+→ ṁ<sub>cold</sub>c<sub>v</sub>ΔT = ṁ<sub>hot</sub>c<sub>v</sub>ΔT 
+</p>  
 
 
-As part of a class project...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec accumsan leo. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Aenean faucibus luctus est, sed bibendum tellus. Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
 
-
-Aenean faucibus luctus est, sed bibendum tellus. Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
-
-
-This is how I solved the problem:
-
-```python
-    some code = 10;
-    plot();
-```
-
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
 
 
