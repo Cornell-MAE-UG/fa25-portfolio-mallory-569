@@ -16,12 +16,7 @@ For ENGRD 2210 (Thermodynamics), we were asked to analyze a device that we have 
 
 A heat exchanger has two fluids flowing past each other many times in either parallel or counterflow to allow heat transfer between the two fluids without mixing. 
 
-<div class="image-row">
-  <img src="../../assets/images/hesetup.png"  width="500">
-  <img src="../../assets/images/hecrosssection.png" width="300">
-</div>
-
-
+<img src="../../assets/images/hesetup.png"  width="400">
 I started with testing out the heat exchanger above with a group. We had two liquid reservoirs, a hot one (red) and cold one (blue) that we pumped into the heat exchanger and out to two separate containers. We ran this in both parallel and counterflow at slow and fast speeds to measure the change in temperature of both liquids. 
 
 ***Assumptions:*** 
