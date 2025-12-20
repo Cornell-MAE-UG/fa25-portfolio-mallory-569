@@ -33,7 +33,13 @@ I started with testing out the heat exchanger above with a group. We had two liq
 
   Modeled as a control volume around both fluids.
   <br>
-<img src=/assets/images/mydrawing.png>
+  <p align="center">
+  <img src="{{ site.baseurl }}/assets/images/mydrawing.png"
+       alt="Control Volume"
+       width="450">
+</p>
+
+image:/assets/images/mydrawing.png
 
 ***Mass Balance Equation:***
 <p>
@@ -46,7 +52,7 @@ This is true for both the cold and hot fluid.
 <p>
 &Sigma; E = Q̇ - Ẇ + ṁ<sub>in</sub>(h + v²/2 + gz) - ṁ<sub>out</sub>(h + v²/2 + gz) = 0 
 <br>
-→ 0 = Q̇ + ṁ(h<sub>in</sub> - h<sub>out</out>)
+→ 0 = Q̇ + ṁ(h<sub>in</sub> - h<sub>out</sub>)
 
 → Q̇/ṁ = h<sub>in</sub> - h<sub>out</sub> = c<sub>v</sub>ΔT
 </p>  
@@ -69,6 +75,9 @@ Looking at it as a full control volume system, the energy balance equation is:
 → ṁ<sub>cold</sub>c<sub>v</sub>ΔT = ṁ<sub>hot</sub>c<sub>v</sub>ΔT 
 </p>  
 
+A few changes that we made were switching from parallel flow to counter flow and from a fast to slow flow rate. In parallel flow, the red liquid stayed hotter than the cold liquid at the end whereas the opposite was true with counter flow. This is due to the fact that counter flow has a more efficient heat transfer as it has a greater temperature distance across all the coils of the tubes. With the flow rate, we found that flowing faster allowed the two liquids to end up at a closer temperature to each other. 
+
+I decided to look into the heat exchangers on boats for an example of this. While the coolant from a car engine flows through the radiator which uses air flow to cool it down, boats don’t move at fast enough speeds for this to work. Instead, they use a heat exchanger with raw water (water from the ocean or lake). I wanted to use the data from the heat exchanger I used to think about this system. 
 
 
 
