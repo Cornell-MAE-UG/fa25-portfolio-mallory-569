@@ -17,7 +17,7 @@ For ENGRD 2210 (Thermodynamics), we were asked to analyze a device that we have 
 A heat exchanger has two fluids flowing past each other many times in either parallel or counterflow to allow heat transfer between the two fluids without mixing. 
 
 <div class="image-row">
-  <img src="../../assets/images/hesetup.png">
+  <img src="../../assets/images/hesetup.png" width=300 alt="Heat Exchanger Setup">
   <img src="../../assets/images/hecrosssection.png">
 </div>
 
@@ -72,8 +72,13 @@ Looking at it as a full control volume system, the energy balance equation is:
 
 A few changes that we made were switching from parallel flow to counter flow and from a fast to slow flow rate. In parallel flow, the red liquid stayed hotter than the cold liquid at the end whereas the opposite was true with counter flow. This is due to the fact that counter flow has a more efficient heat transfer as it has a greater temperature distance across all the coils of the tubes. With the flow rate, we found that flowing faster allowed the two liquids to end up at a closer temperature to each other. 
 
-I decided to look into the heat exchangers on boats for an example of this. While the coolant from a car engine flows through the radiator which uses air flow to cool it down, boats don’t move at fast enough speeds for this to work. Instead, they use a heat exchanger with raw water (water from the ocean or lake). I wanted to use the data from the heat exchanger I used to think about this system. 
+I decided to look into the heat exchangers on boats for an example of this. While the coolant from a car engine flows through the radiator which uses air flow to cool it down, boats don’t move at fast enough speeds for this to work. Instead, they use a heat exchanger with raw water (water from the ocean or lake). I wanted to use the data from the heat exchanger I used in lab to think about this system. 
 
+I decided to analyze the heat exchanger on a boat with an inboard motor. First, the water is pumped up from the ocean into a filter and into the heat exchanger. The heat exchanger is using the ocean water to cool the engine coolant. 
+
+<img src="../../assets/images/heonboat.png">
+
+I found a YouTube video of a man with an inboard motor measuring the temperatures of his heat exchanger. With an infrared sensor, he found that in mid June the raw water inlet was 18 degrees Celsius and exiting the system it should reach a maximum of about doubling. Additionally, when running, a fair assumption for the engine coolant temperature change is 5-11 degrees Celsius with an inlet temperature into the heat exchanger of 80 degrees Celsius. These numbers are based on online research and some more YouTube videos.
 
 
 
