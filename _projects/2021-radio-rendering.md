@@ -3,7 +3,7 @@
 layout: project
 title: MAE 2250 - Open Design Project
 description: Class Assignment
-image: /assets/images/spotted_lanternfly.jpg
+image: /assets/images/slf.png
 fontsize: 11pt 
 geometry: margin=1in 
 papersize: letter 
@@ -52,7 +52,7 @@ require many resources just to physically cover a lot of space. Furthermore, the
 
 <div>
 <figure style="text-align: center;">
-  <img src="{{ '/assets/images/odp_figure.jpg' | relative_url }}"
+  <img src="{{ '/assets/images/sprayeritem.png' | relative_url }}"
        alt="odp diagram"
        style="max-width:100%; height:auto;">
   <figcaption>
