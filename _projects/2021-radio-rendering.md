@@ -1,16 +1,9 @@
-
 ---
 layout: project
 title: MAE 2250 - Open Design Project
-description: Class Assignment
+description:  Class Assignment
 image: /assets/images/slf.png
-fontsize: 11pt 
-geometry: margin=1in 
-papersize: letter 
-pagestyle: empty
-header-includes: 
-    - \pagenumbering{gobble} 
---- 
+---
 
 # Open Design Project: Spotted Lanternflies (SLFs)
 **Team:** _Sinicus_ 
