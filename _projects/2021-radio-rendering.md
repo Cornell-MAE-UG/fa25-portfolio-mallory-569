@@ -1,25 +1,58 @@
+
 ---
 layout: project
-title: Radio CAD Rendering
-description: Advanced CAD Project
-technologies: [Autodesk Fusion]
-image: /assets/images/radio-machine-cad.jpg
----
+title: MAE 2250 - Open Design Project
+description: Class Assignment
+image: /assets/images/spotted_lanternfly.jpg
+fontsize: 11pt 
+geometry: margin=1in 
+papersize: letter 
+pagestyle: empty
+header-includes: 
+    - \pagenumbering{gobble} 
+--- 
 
-For a class, we were asked to CAD a complex object. This design was...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec accumsan leo. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Aenean faucibus luctus est, sed bibendum tellus. 
+# Open Design Project: Spotted Lanternflies (SLFs)
+**Team:** _Sinicus_ 
+**Client(s):** _Cornell CALS Extension / E\&J Gallo Winery / National Grape_
 
-Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
+## Problem statement
 
-![Shaded rendering of earlier version]({{ "/assets/images/radio-machine.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
+Our problem of interest is the influx of spotted lanternflies (SLFs) into vineyards from forested areas during peak grape harvesting period, as grapevines are the most attractive host to SLFs after the Tree of Heaven. Thus, our problem focuses on attracting SLFs to something other than the grapevines and eliminating them before they can cause damage to the crop.
 
-Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
+## Impact
 
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
+Preventing SLFs from accessing grapevines decreases the number of throwaway batches and improves the quality of harvests. The accepted tolerance of SLFs in grape products is low, with only 1–2 SLFs per kilogram of grapes required to reject a 22-ton batch. However, a study with mechanical harvesters found that, on average, 300 SLFs from 100-ft of harvesting ended up in bins when not sprayed with pesticides. Eliminating SLFs before they ever reach the vine preserves the integrity of the current crop of grapes, improving the profitability of harvest. Furthermore, SLFs feed on grapevine phloem, reducing nitrogen and carbon in the roots and soil and diminishing the taste and size of future grape harvests. Eliminating lanternflies will preserve the health of the vines, prolong their useful life, and ensure profitability on a longer timescale.
 
-I was inspired by this old radio when I made this rendering:
+## Proposed direction
 
-![Photo of old radio]({{ "/assets/images/old-radio.jpg" | relative_url }}){: .inline-image-l}
+Our proposed solution is to attract SLFs away from the vines to then kill them using conventional pesticides. As the SLFs migrate from the Tree of Heaven to the vines, we will aim to attract them to an electrified fence around the perimeter of the vineyard. There, they will be sprayed with pesticides. This solution improves on current methods by applying pesticides away from the vine. As proof of concept, we will develop a section of electrified wire, test that it emits a variety of frequencies that the SLFs may be attracted to, and develop a prototype pesticide sprayer.
 
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
+## Key Risks / Unknowns
 
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
+The key risks of focusing on our proposed problem are the scale of the solution required. New
+York State has over 30,000 acres of vineyards, and to block SLFs from entering vineyards would
+require many resources just to physically cover a lot of space. Furthermore, the use of an electrified wire to attract spotted lanternflies may cause ecological disturbance beyond the desired scope of impact. More specifically, it is possible that other insects (including those beneficial to agriculture such as pollinators) may be attracted to the utilized frequencies and would also be eliminated by the pesticide sprayer. Additionally, it is possible that this electrified wire could pose harm to larger animals passing through areas adjacent to grapevines. Another unknown is how often and for how long pesticides need to be sprayed to be effective.
+
+## Questions for the client
+
+1. How has attracting SLFs been attempted in the past and how successful was it?
+2. How long do the pesticides take to kill a SLF and how much is needed to kill one?
+3. Would SLFs linger around an alternating electrical current (like moths do around bright lights) as is suggested in some research?
+
+<div style="display:none;">
+\newpage
+</div>
+
+## Figure
+
+<div style="display:none;">
+![](C:\Users\eherr\Documents\fa25-portfolio-eh697\assets\images\odp_figure.jpg "Optional title/tooltip text") 
+</div>
+
+<div>
+<figure style="text-align: center;">
+  <img src="{{ '/assets/images/odp_figure.jpg' | relative_url }}"
+       alt="odp diagram"
+       style="max-width:100%; height:auto;">
+  <figcaption>
