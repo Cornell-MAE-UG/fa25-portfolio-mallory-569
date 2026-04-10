@@ -42,6 +42,7 @@ require many resources just to physically cover a lot of space. Furthermore, the
 </div>
 
 ## Figure
+<!--
 <div style="display:none;">
 ![](C:\Users\eherr\Documents\fa25-portfolio-eh697\assets\images\odp_figure.jpg "Optional title/tooltip text") 
 </div>
@@ -51,6 +52,14 @@ require many resources just to physically cover a lot of space. Furthermore, the
   <img src="{{ '/assets/images/sprayeritem.png' | relative_url }}"
        alt="odp diagram"
        style="max-width:100%; height:auto;">
+-->
+<div style="text-align: center;">
+  <img src="{{ '/assets/images/odp_figure.jpg' | relative_url }}" alt="Centered Image" style="max-width:100%; height:auto;">
+</div>
+<div style="text-align: center;">
+  <img src="{{ '/assets/images/sprayeritem.jpg' | relative_url }}" alt="Centered Image" style="max-width:100%; height:auto;">
+</div>
+<br>
 
 # Functional Prototype
 
