@@ -8,7 +8,7 @@ image: /assets/images/slf.png
 - [Client Outline](#client-outline)
 - [Functional Protoype](#functional-prototype)
 
-<h2 style="font-size: 35px;">
+<h2 style="font-size: 32px;">
   Open Design Project: Spotted Lanternflies
 </h2>
 **Team:** _Sinicus_ 
