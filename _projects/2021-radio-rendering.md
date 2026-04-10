@@ -52,12 +52,13 @@ require many resources just to physically cover a lot of space. Furthermore, the
   <img src="{{ '/assets/images/sprayeritem.png' | relative_url }}"
        alt="odp diagram"
        style="max-width:100%; height:auto;">
--->
+
 <div style="text-align: center;">
   <img src="{{ '/assets/images/odp_figure.jpg' | relative_url }}" alt="Centered Image" style="max-width:100%; height:auto;">
 </div>
+-->
 <div style="text-align: center;">
-  <img src="{{ '/assets/images/sprayeritem.jpg' | relative_url }}" alt="Centered Image" style="max-width:100%; height:auto;">
+  <img src="{{ '/assets/images/sprayeritem.png' | relative_url }}" alt="Centered Image" style="max-width:100%; height:auto;">
 </div>
 <br>
 
