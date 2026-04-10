@@ -54,7 +54,7 @@ require many resources just to physically cover a lot of space. Furthermore, the
        style="max-width:100%; height:auto;">
   <figcaption>
 
-## Functional Prototype
+# Functional Prototype
 
 ## Design Intent and Functionality
 
