@@ -8,7 +8,9 @@ image: /assets/images/slf.png
 - [Client Outline](#client-outline)
 - [Functional Protoype](#functional-prototype)
 
-# Open Design Project: Spotted Lanternflies 
+<h2 style="font-size: 28px;">
+  Open Design Project: Spotted Lanternflies
+</h2>
 **Team:** _Sinicus_ 
 **Client(s):** _Cornell CALS Extension / E\&J Gallo Winery / National Grape_
 
