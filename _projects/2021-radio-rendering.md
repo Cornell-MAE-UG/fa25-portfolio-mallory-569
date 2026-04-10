@@ -5,8 +5,8 @@ description:  Class Assignment
 image: /assets/images/slf.png
 ---
 ## Table of Contents
--[Client Outline](#Client-Outline)
--[Functional Protoype](#Functional-Prototype)
+- [Client Outline](#client-outline)
+- [Functional Protoype](#functional-prototype)
 
 # Open Design Project: Spotted Lanternflies 
 **Team:** _Sinicus_ 
