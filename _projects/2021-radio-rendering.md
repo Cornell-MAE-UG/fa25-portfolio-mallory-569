@@ -8,7 +8,7 @@ image: /assets/images/slf.png
 -[Client Outline](#Client-Outline)
 -[Functional Protoype](#Functional-Prototype)
 
-# Open Design Project: Spotted Lanternflies (SLFs)  
+# Open Design Project: Spotted Lanternflies 
 **Team:** _Sinicus_ 
 **Client(s):** _Cornell CALS Extension / E\&J Gallo Winery / National Grape_
 
@@ -42,7 +42,7 @@ require many resources just to physically cover a lot of space. Furthermore, the
 </div>
 
 ## Figure
-
+<!--
 <div style="display:none;">
 ![](C:\Users\eherr\Documents\fa25-portfolio-eh697\assets\images\odp_figure.jpg "Optional title/tooltip text") 
 </div>
@@ -53,6 +53,7 @@ require many resources just to physically cover a lot of space. Furthermore, the
        alt="odp diagram"
        style="max-width:100%; height:auto;">
   <figcaption>
+-->
 
 # Functional Prototype
 
@@ -61,6 +62,7 @@ require many resources just to physically cover a lot of space. Furthermore, the
 Our project seeks to mitigate SLF damage in grape vineyards, given that it negatively impacts the grape and wine industry of the Northeastern United States. Our prototype mitigates SLF damage by attracting SLFs to a lure disk and sweeping them into a collection box where they will either die of hunger or be manually eliminated later.
 
 ## Design Documentation
+
 <table>
   <tr>
     <th>Part</th>
