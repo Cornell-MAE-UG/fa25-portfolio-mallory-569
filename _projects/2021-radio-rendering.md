@@ -400,14 +400,14 @@ We first tested the functionality of two different rake styles at sweeping off S
 
 
 <div style="text-align: center;">
-  <img src="{{ '/assets/images/rake_1.jpg' | relative_url }}" alt="Centered Image" style="max-width:100%; height:auto;">
+  <img src="{{ '/assets/images/rake_1.png' | relative_url }}" alt="Centered Image" style="max-width:100%; height:auto;">
 </div>
 <center>Fig 2. Prototype rake style 1</center>
 <br>
 
 
 <div style="text-align: center;">
-  <img src="{{ '/assets/images/rake_2.jpg' | relative_url }}" alt="Centered Image" style="max-width:100%; height:auto;">
+  <img src="{{ '/assets/images/rake_2.png' | relative_url }}" alt="Centered Image" style="max-width:100%; height:auto;">
 </div>
 <center>Fig 3. Prototype rake style 2</center>
 <br>
